@@ -8,4 +8,4 @@ print(ts)
 
 # Write it to a file - overwrite if exists
 with open("date.txt","w") as f:
-  f.write(ts)
+  f.write(str(ts))
